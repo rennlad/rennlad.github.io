@@ -27,7 +27,6 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    
 }
 
 #career {
@@ -46,22 +45,12 @@ h2 {
 
 #education {
     margin-top: 50px;
-}
-
-#schools  {
-    margin: auto;    
-    width: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
 
 
 .school {
     border: black dotted 1px;
-    width: 400px;
-    margin: 20px;
-    height: 150px;
     background-color: white;
 }
 
@@ -84,17 +73,20 @@ h2 {
 #references {
     text-align: center;
     margin-top: 50px;
-    
 }
 
 #people {
-    display: flex;
     justify-content: center;
+}
+
+.row {
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .person {
     border: black solid 0.5px;
-    width: 190px;
     margin: 10px;
     background-color: white;
 }
